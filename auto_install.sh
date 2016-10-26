@@ -1,4 +1,4 @@
-echo "CAPTION: This script for intel GPU & ubuntu 16.04"
+echo "CAPTION: This script for intel GPU & ubuntu 16.04 & ROS kinetic"
 echo "You can ctrl+C to kill me. if ok, press Enter."
 read buf
 topDir=`pwd`
@@ -19,6 +19,8 @@ sudo make install
 sudo cp ../platform/linux/udev/90-kinect2.rules /etc/udev/rules.d/
 cd $topDir
 echo "finish installation of libfreenect2"
+echo "press Enter to continue installation, next is iai_kinect2"
+read buf
 echo "The section of iai_kinect2 installation"
 echo "Requirements installation (on iai_kinect2)"
 cd src/iai_kinect2
@@ -29,7 +31,7 @@ cd src
 catkin_init_workspace
 cd $topDir
 echo "iai_kinect2 installation"
-catkin_make -DCMAKE_BUILD_TYPE="Release"
-. devel/setup.bash
-sudo catkin_make install -DCMAKE_INSTALL_PREFIX=/opt/ros/kinetic
+catkin_make -DCMAKE_BUILD_TYPE="Release" -DCMAKE_INSTALL_PREFIX=/opt/ros/kinetic
+cd build
+sudo make install
 cd $topDir
