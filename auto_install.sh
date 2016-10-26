@@ -17,6 +17,7 @@ cmake .. -DENABLE_CXX11=ON
 make
 sudo make install
 sudo cp ../platform/linux/udev/90-kinect2.rules /etc/udev/rules.d/
+sudo ldconfig
 cd $topDir
 echo "finish installation of libfreenect2"
 echo "press Enter to continue installation, next is iai_kinect2"
