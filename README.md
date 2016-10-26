@@ -1,4 +1,4 @@
-# The installer of iai_kinect for ubuntu
+# iai_kinect_installer
 The installer of iai_kinect for ubuntu
 
 ## CAPTION
