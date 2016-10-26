@@ -4,13 +4,13 @@
 ### Repository clone
 
 ```bash
-git clone --recursive https://github.com/agrirobo/kv2_colored_shape_tracker
+git clone --recursive https://github.com/agrirobo/iai_kinect_installer
 ```
 
 ### Auto installation
 
 ```bash
-cd kv2_colored_shape_tracker && sh auto_install.sh
+cd iai_kinect_installer && sh auto_install.sh
 ```
 
 シェルスクリプトの指示を読んでEnterかctrl+Cを押してください。
