@@ -1,4 +1,5 @@
-# kv2_colored_shape_tracker
+# The installer of iai_kinect for ubuntu
+The installer of iai_kinect for ubuntu
 
 ## CAPTION
 - This installer give your system iai_kinect2. If reject them, maybe overwrite them.
