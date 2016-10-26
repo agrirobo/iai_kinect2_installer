@@ -1,3 +1,6 @@
 [submodule "libfreenect2"]
 	path = libfreenect2
 	url = https://github.com/OpenKinect/libfreenect2.git
+[submodule "src/iai_kinect2"]
+	path = src/iai_kinect2
+	url = https://github.com/code-iai/iai_kinect2.git
