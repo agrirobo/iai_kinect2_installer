@@ -31,4 +31,5 @@ cd $topDir
 echo "iai_kinect2 installation"
 catkin_make -DCMAKE_BUILD_TYPE="Release"
 . devel/setup.bash
+sudo catkin_make install -DCMAKE_INSTALL_PREFIX=/opt/ros/kinetic
 cd $topDir
