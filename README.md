@@ -4,7 +4,7 @@
 ### Repository clone
 
 ```bash
-git clone -b ubuntu16.04 --recursive https://github.com/agrirobo/kv2_colored_shape_tracker
+git clone --recursive https://github.com/agrirobo/kv2_colored_shape_tracker
 ```
 
 ### Auto installation
