@@ -21,7 +21,7 @@ sudo ldconfig
 cd $topDir
 echo "finish installation of libfreenect2"
 echo "press Enter to continue installation, next is iai_kinect2"
-read buf
+#read buf
 echo "The section of iai_kinect2 installation"
 echo "Requirements installation (on iai_kinect2)"
 cd src/iai_kinect2
