@@ -1,7 +1,7 @@
 # iai_kinect_installer
 The installer of iai_kinect2 for ubuntu
 
-## CAPTION
+## CAUTION
 - This installer give your system iai_kinect2. If conflict them, maybe overwrite them.
 - このインストーラーはiai_kinect2をシステムにインストールします。もしブッキングした場合おそらく上書きされます。
 
