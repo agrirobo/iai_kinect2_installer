@@ -19,4 +19,6 @@ cd iai_kinect_installer && sh auto_install.sh
 ```
 
 シェルスクリプトの指示を読んで`Enter`か`ctrl+C`を押してください。
-一連の動作の中でEnterは2回要求されます。(始めの一回と、libfreenect2を入れた直後です)
+
+## LICENSE
+BSD 3-Clause License, see LICENSE.txt.
