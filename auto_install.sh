@@ -1,4 +1,4 @@
-echo "CAPTION: This script for intel GPU & ubuntu 16.04 & ROS kinetic"
+echo "CAUTION: This script for intel GPU & ubuntu 16.04 & ROS kinetic"
 echo "You can ctrl+C to kill me. if ok, press Enter."
 read buf
 topDir=`pwd`
