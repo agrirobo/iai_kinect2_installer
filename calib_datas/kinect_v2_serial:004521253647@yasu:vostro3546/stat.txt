@@ -1,0 +1,5 @@
+color 81枚
+ir 112枚
+sync 72枚
+depth 112枚
+
