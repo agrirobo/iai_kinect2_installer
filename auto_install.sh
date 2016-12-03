@@ -21,18 +21,3 @@ sudo ldconfig
 cd $topDir
 echo "finish installation of libfreenect2"
 echo "press Enter to continue installation, next is iai_kinect2"
-#read buf
-echo "The section of iai_kinect2 installation"
-echo "Requirements installation (on iai_kinect2)"
-cd src/iai_kinect2
-rosdep install -r --from-paths .
-cd $topDir
-echo "catkin_workspace constructing"
-cd src
-catkin_init_workspace
-cd $topDir
-echo "iai_kinect2 installation"
-catkin_make -DCMAKE_BUILD_TYPE="Release" -DCMAKE_INSTALL_PREFIX=/opt/ros/kinetic
-cd build
-sudo make install
-cd $topDir
